@@ -1,4 +1,4 @@
-﻿# Python Strings
+### Python Strings
 
  
 Here is a comprehensive list of **Python string functions** and **string methods**, categorized for easier understanding:

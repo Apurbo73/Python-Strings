@@ -98,3 +98,45 @@ Here is a comprehensive list of **Python string functions** and **string methods
 
 ---
 
+
+
+
+### 🧙‍♂️ Python Escape Characters (Escape Operators)
+
+Escape characters in Python are used to insert **special characters** into strings that are otherwise hard or impossible to type directly.
+
+Here’s a list of **commonly used escape sequences**:
+
+| Escape Sequence | Meaning                         | Example                | Result              |
+| --------------- | ------------------------------- | ---------------------- | ------------------- |
+| `\\`            | Backslash                       | `"A\\B"`               | `A\B`               |
+| `\'`            | Single quote                    | `'It\'s OK'`           | `It's OK`           |
+| `\"`            | Double quote                    | `"He said \"Hi\""`     | `He said "Hi"`      |
+| `\n`            | Newline                         | `"Hello\nWorld"`       | Prints on 2 lines   |
+| `\t`            | Tab                             | `"A\tB"`               | `A    B`            |
+| `\r`            | Carriage return                 | `"123\rABC"`           | `ABC` (overwrites)  |
+| `\b`            | Backspace                       | `"ABC\bD"`             | `ABD`               |
+| `\f`            | Form feed                       | `"Hello\fWorld"`       | Platform-dependent  |
+| `\v`            | Vertical tab                    | `"Hello\vWorld"`       | Platform-dependent  |
+| `\a`            | Bell (Alert)                    | `"\a"`                 | Beep (if supported) |
+| `\ooo`          | Octal value (e.g. `\141` = 'a') | `"\141"`               | `a`                 |
+| `\xhh`          | Hex value (e.g. `\x61` = 'a')   | `"\x61"`               | `a`                 |
+| `\N{name}`      | Unicode character by name       | `"\N{COPYRIGHT SIGN}"` | `©`                 |
+| `\uXXXX`        | 16-bit Unicode                  | `"\u00A9"`             | `©`                 |
+| `\UXXXXXXXX`    | 32-bit Unicode                  | `"\U0001F600"`         | 😀                  |
+
+---
+
+### ✅ Example Usage:
+
+```python
+print("Line1\nLine2")        # Newline
+print("She said, \"Hi!\"")  # Quotes
+print("C:\\Users\\Name")    # Backslashes
+```
+
+---
+
+Would you like a downloadable PDF cheat sheet for this?
+
+

@@ -137,6 +137,5 @@ print("C:\\Users\\Name")    # Backslashes
 
 ---
 
-Would you like a downloadable PDF cheat sheet for this?
 
 

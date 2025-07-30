@@ -61,3 +61,14 @@ print(b[2:])
 b = "Hello, World!"
 print(b[-5:-2])
 #Output: orl
+
+
+# Upper Case **********
+# ExampleGet your own Python Server
+# The upper() method returns the string in upper case:
+
+a = "Hello, World!"
+print(a.upper())
+
+# Output: HELLO, WORLD!
+
